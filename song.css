@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #cfe9f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #200b7f;
+    margin: 20px 0;
+    font-style:italic;
+}
+
+.lyrics {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #c7cfc9;
+    padding: 20px;
+    border-radius: 1px;
+    box-shadow: 0 0 20px rgba(12, 3, 82, 0.5);
+    box-sizing:content-box;
+}
+
+p {
+    color: #8e7ada;
+    font-size: 17px;
+    margin: 10px 0;
+    line-height: 1.6;
+    font-style:oblique;
+}
+
+p:nth-child(odd) {
+    background-color: #aeedbfb8;
+}
+
+p:nth-child(even) {
+    background-color: #d1efa1;
+}
+
+.chorus {
+    font-weight: bold;
+    color: #f4f1f0;
+}
+
+.highlight {
+    background-color: #b70d0d;
+    background-size: auto;
+}
